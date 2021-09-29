@@ -1,0 +1,550 @@
+{
+  "quiz": {
+    "id": 18304,
+    "title": "Active Record Associations Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/4182/quizzes/18304",
+    "mobile_url": "https://learning.flatironschool.com/courses/4182/quizzes/18304?force_user=1&persist_headless=1",
+    "description": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.\\n\\nIf you don't know the answer to a question, please do not guess. Instead, select \\&quot;I don't know\\&quot;. It's OK not to know everything and to admit when we're unsure.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:33667,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16573901},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;18&quot;:1}\">It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.<br><br>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>\n<p>If you get stuck, check out these pages from the Rails guides:</p>\n<ul>\n<li><a class=\"inline_disabled\" href=\"https://guides.rubyonrails.org/association_basics.html\" target=\"_blank\">Association Basics</a></li>\n<li><a class=\"inline_disabled\" href=\"https://guides.rubyonrails.org/routing.html#nested-resources\" target=\"_blank\">Rails Routing: Nested Resources</a></li>\n</ul>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 8,
+    "points_possible": 8.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_18304"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18304/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18304/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18304/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/4182/quizzes/18304/submission_versions",
+    "assignment_id": 124633,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 8385,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 3,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+      "multiple_answers_question",
+      "matching_question",
+      "multiple_choice_question",
+      "short_answer_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 18304,
+      "id": 123871,
+      "quiz_group_id": null,
+      "assessment_question_id": 132933,
+      "position": null,
+      "question_name": "Active Record",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Which of the following Active Record methods will trigger model validations?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "3165",
+          "text": ".create",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "2099",
+          "text": ".save",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "4912",
+          "text": ".update",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "7414",
+          "text": ".valid?",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "9556",
+          "text": ".new",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "740",
+          "text": ".destroy",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "701",
+          "text": ".valdiate",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "7949",
+          "text": ".errors",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7699,
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123872,
+      "quiz_group_id": null,
+      "assessment_question_id": 134141,
+      "position": null,
+      "question_name": "Active Record: Association Methods",
+      "question_type": "matching_question",
+      "question_text": "<p>Given the following tables:</p>\n<p><img src=\"https://learning.flatironschool.com/assessment_questions/128066/files/1675669/download?verifier=KJMKzrekSGY4T4U66BH6yHtViaGPqOzSjQffluGd\" alt=\"Albums-Songs Domain\" width=\"500\" height=\"179\">&nbsp;&nbsp;</p>\n<p>Match the correct Active Record association method with the corresponding model.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 3216,
+          "text": "Album",
+          "left": "Album",
+          "right": "has_many :songs",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1495
+        },
+        {
+          "id": 2849,
+          "text": "Song",
+          "left": "Song",
+          "right": "belongs_to :album",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 3505
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "has_many :songs",
+          "match_id": 1495
+        },
+        {
+          "text": "belongs_to :album",
+          "match_id": 3505
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123873,
+      "quiz_group_id": null,
+      "assessment_question_id": 132923,
+      "position": null,
+      "question_name": "Active Record: Deleting Nested Data",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>We're working on a domain where a&nbsp;<strong>song belongs to an album</strong>. Before we can delete an album from the database, we must delete all the songs associated with that album; otherwise, the songs will still exist without knowing which album they're associated with.</p>\n<p>&nbsp;</p>\n<p>Which of the following code blocks will help to delete all the songs associated with an album when the album is deleted?&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 5395,
+          "text": "",
+          "html": "<pre>class Album &lt; ApplicationRecord<br>  has_many :songs, dependent: :destroy<br>end</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 2948,
+          "text": "",
+          "html": "<pre>class Song &lt; ApplicationRecord<br>  belongs_to :album, dependent: :destroy<br>end</pre>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 758,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123874,
+      "quiz_group_id": null,
+      "assessment_question_id": 132924,
+      "position": null,
+      "question_name": "Active Record: Displaying Nested Data",
+      "question_type": "short_answer_question",
+      "question_text": "<p>Fill in the blank in the code below. What code would you write to return all the songs associated with an album as JSON data?</p>\n<pre><code>\nclass AlbumsController &lt; ApplicationController\n  def show\n    album = Album.find(params[:id])\n    render json: album, _________\n  end\nend\n</code></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 1122,
+          "text": "include: :songs",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 9908,
+          "text": "include: [:songs]",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123875,
+      "quiz_group_id": null,
+      "assessment_question_id": 132925,
+      "position": null,
+      "question_name": "Active Record: Displaying Nested Data",
+      "question_type": "short_answer_question",
+      "question_text": "<p>We're working on a domain where a<strong> song belongs to an album</strong>. Fill in the blank in the code below. What code would you write to return the album associated with one specific song as a nested object in the response?</p>\n<pre><code>\nclass SongsController &lt; ApplicationController\n  def show\n    song = Song.find(params[:id])\n    render json: song, _________\n  end\nend\n</code></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 5043,
+          "text": "include: :album",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 4292,
+          "text": "include: [:album]",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123876,
+      "quiz_group_id": null,
+      "assessment_question_id": 134145,
+      "position": null,
+      "question_name": "Active Record: Nested Routing",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>We're working on a domain where an&nbsp;</span><strong>album has many songs</strong><span>.&nbsp;</span>Which of the following nested routes follows RESTful routing conventions?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 6648,
+          "text": "/albums/:album_id/songs",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4761,
+          "text": "/albums/:album_id/songs/:id",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 8701,
+          "text": "/songs/:song_id/albums",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 997,
+          "text": "/songs/:song_id/albums/:id",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6757,
+          "text": "/songs?album_id=1",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123877,
+      "quiz_group_id": null,
+      "assessment_question_id": 132927,
+      "position": null,
+      "question_name": "Active Record: Table Relationships",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>To create the following relationship:</p>\n<ul>\n<li>A <strong>team</strong> has many&nbsp;<strong>players</strong></li>\n<li>A <strong>player</strong> belongs to a <strong>team</strong></li>\n</ul>\n<p>What foreign keys would need need to be added to what database tables?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "520",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>Add a <strong>team_id</strong> foreign key to the&nbsp;<strong>teams</strong> table</p>"
+        },
+        {
+          "id": "645",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>Add a <strong>player</strong><strong>_id</strong> foreign key to the&nbsp;<strong>players</strong> table</p>"
+        },
+        {
+          "id": "6257",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Add a <strong>team</strong><strong>_id</strong> foreign key to the&nbsp;<strong>players</strong> table</p>"
+        },
+        {
+          "id": "1698",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18304,
+      "id": 123878,
+      "quiz_group_id": null,
+      "assessment_question_id": 132929,
+      "position": null,
+      "question_name": "Active Record: Table Relationships",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>To create the following relationship:</p>\n<ul>\n<li>A&nbsp;<strong>doctor&nbsp;</strong>has many <strong>appointments</strong></li>\n<li>A&nbsp;<strong>doctor</strong> has many <strong>patients</strong> through <strong>appointments</strong></li>\n<li>An <strong>appointment </strong>belongs to a <strong>doctor</strong></li>\n<li>An <strong>appointment </strong>belongs to a <strong>patient</strong></li>\n<li>A&nbsp;<strong>patient </strong>has many <strong>appointments</strong></li>\n<li>A <strong>patient</strong>&nbsp;has many <strong>doctors</strong>&nbsp;through <strong>appointments</strong><strong></strong></li>\n</ul>\n<p>What foreign keys would need need to be added to what database tables?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "6844",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><span>Add a&nbsp;</span><strong>patient_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>appointments</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "5441",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p><span>Add a&nbsp;</span><strong>doctor_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>appointments</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "9223",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p><span>Add an </span><strong>appointment_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>doctors</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "4972",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p><span>Add an </span><strong>patient_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>doctors</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "3136",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p><span>Add an <strong>appointment</strong></span><strong>_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>patients</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "6365",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p><span>Add an <strong>doctor</strong></span><strong>_id</strong><span>&nbsp;foreign key to the&nbsp;</span><strong>patients</strong><span>&nbsp;table</span></p>"
+        },
+        {
+          "id": "1026",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
